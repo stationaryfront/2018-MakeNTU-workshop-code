@@ -11,7 +11,7 @@ class Controller(object):
     self.servo = gpio.PWM(servo_pin, 50)
 
     # Please replace these values below with tuned ones
-    self.middle_val = 8.3
+    self.middle_val = 5.0
     self.left_val = self.middle_val - 1.8
     self.right_val = self.middle_val + 1.8
 
